@@ -8,6 +8,26 @@ I'm a Software Engineer, Delivery Lead & Engineering Coach at [Snowplow Analytic
 🌱 I’m currently studying [Data Science, Technology and Innovation MSc](https://www.ed.ac.uk/bayes/about-us/our-work/education/data-science-technology-and-innovation) at Univeristy of Edinburgh  
 📫 How to reach me: [Twitter](https://twitter.com/paul_boocock), [LinkedIn](https://www.linkedin.com/in/pboocock/) & [Snowplow Discourse](https://discourse.snowplowanalytics.com/u/paulboocock)
 
+## 🧑‍🏫 Appearances
+
+### 2021
+- [Technical Marketing Handbook #3: Online Analytics with Paul Boocock](https://www.teamsimmer.com/2021/07/27/online-analytics-with-paul-boocock/)
+- [The future of web analytics: A fireside chat with Simo Ahava](https://vimeo.com/563786449)
+
+### 2020
+- [The debate on explicit vs implicit tracking - Heap & Snowplow](https://vimeo.com/476458818)
+- [The art and science of designing your tracking](https://vimeo.com/475924734)
+
+### 2019
+- NOR(DEV):CON 2019 - Working remote vs Working colocated
+
+### 2017
+- [Agile Cambridge 2017 - The Toyota Way at Codeweavers](https://www.infoq.com/news/2017/10/toyota-way-codeweavers/)
+- [Agile Manchester 2017 - One trunk, one pipeline, one truth](https://agilemanchester.net/2017/sessions/index.php?session=36)
+
+### 2016
+- [Agile on the Beach 2016 - Continuously delivering software to big brands](https://agileonthebeach.com/sessions/2016/continuously-delivering-software-big-brands-paul-boocock-software-delivery-2016/)
+
 [github-badge]: https://img.shields.io/static/v1?style=flat&label=GitHub&message=paulboocock&color=333&labelColor=9ba0aa&logo=github
 [github-url]: https://github.com/paulboocock
 [twitter-badge]: https://img.shields.io/static/v1?style=flat&label=Twitter&message=@paul_boocock&color=55acee&labelColor=9ba0aa&logo=twitter
