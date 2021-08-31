@@ -2,7 +2,7 @@
 
 [![github-badge]][github-url] [![twitter-badge]][twitter-url] [![linkedin-badge]][linkedin-url] [![snowplow-discourse-badge]][snowplow-discourse-url] 
 
-I'm a Software Engineer, Delivery Lead & Engineering Coach at [Snowplow Analytics](https://github.com/snowplow/)
+I'm Head of Engineering (Data Engine) at [Snowplow Analytics](https://github.com/snowplow/)
 
 💬 Ask me about Ethics of Data Collection, User Privacy, [Snowplow Trackers](https://docs.snowplowanalytics.com/docs/collecting-data/collecting-from-own-applications/) and [Data Models](https://github.com/snowplow/snowplow-web-data-model)  
 🌱 I’m currently studying [Data Science, Technology and Innovation MSc](https://www.ed.ac.uk/bayes/about-us/our-work/education/data-science-technology-and-innovation) at Univeristy of Edinburgh  
