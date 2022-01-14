@@ -5,7 +5,7 @@
 I'm Head of Engineering (Data Engine) at [Snowplow Analytics](https://github.com/snowplow/)
 
 💬 Ask me about Ethics of Data Collection, User Privacy, [Snowplow Trackers](https://docs.snowplowanalytics.com/docs/collecting-data/collecting-from-own-applications/) and [Data Models](https://github.com/snowplow/snowplow-web-data-model)  
-🌱 I’m currently studying [Data Science, Technology and Innovation MSc](https://www.ed.ac.uk/bayes/about-us/our-work/education/data-science-technology-and-innovation) at Univeristy of Edinburgh  
+🌱 I’m currently studying [Data Science, Technology and Innovation MSc](https://www.ed.ac.uk/bayes/about-us/our-work/education/data-science-technology-and-innovation) at University of Edinburgh  
 📫 How to reach me: [Twitter](https://twitter.com/paul_boocock), [LinkedIn](https://www.linkedin.com/in/pboocock/) & [Snowplow Discourse](https://discourse.snowplowanalytics.com/u/paulboocock)
 
 ## 🧑‍🏫 Appearances
@@ -13,6 +13,7 @@ I'm Head of Engineering (Data Engine) at [Snowplow Analytics](https://github.com
 ### 2021
 - [Technical Marketing Handbook #3: Online Analytics with Paul Boocock](https://www.teamsimmer.com/2021/07/27/online-analytics-with-paul-boocock/)
 - [The future of web analytics: A fireside chat with Simo Ahava](https://vimeo.com/563786449)
+- [dbt Coalesce 2021 - Modeling event data at scale](https://www.youtube.com/watch?v=H6Q-dtQ7xdM)
 
 ### 2020
 - [The debate on explicit vs implicit tracking - Heap & Snowplow](https://vimeo.com/476458818)
