@@ -10,6 +10,9 @@ I'm Head of Engineering (Data Engine) at [Snowplow Analytics](https://github.com
 
 ## 🧑‍🏫 Appearances
 
+### 2022
+- [Scaling Data Management as Your Organisation’s Data Maturity Increases](https://panelist.com/event/cdo-uk-live-series-february-edition-2022/live)
+
 ### 2021
 - [Technical Marketing Handbook #3: Online Analytics with Paul Boocock](https://www.teamsimmer.com/2021/07/27/online-analytics-with-paul-boocock/)
 - [The future of web analytics: A fireside chat with Simo Ahava](https://vimeo.com/563786449)
