@@ -2,7 +2,7 @@
 
 [![github-badge]][github-url] [![twitter-badge]][twitter-url] [![linkedin-badge]][linkedin-url] [![snowplow-discourse-badge]][snowplow-discourse-url] 
 
-I'm Head of Engineering (Data Engine) at [Snowplow Analytics](https://github.com/snowplow/)
+I'm Head of Engineering (Activation) at [Snowplow Analytics](https://github.com/snowplow/)
 
 💬 Ask me about Ethics of Data Collection, User Privacy, [Snowplow Trackers](https://docs.snowplowanalytics.com/docs/collecting-data/collecting-from-own-applications/), [Data Pipelines](https://docs.snowplowanalytics.com/docs/getting-started-on-snowplow-open-source/setup-snowplow-on-aws/) and [Data Models](https://docs.snowplowanalytics.com/docs/modeling-your-data/)  
 🌱 I’m currently studying [Data Science, Technology and Innovation MSc](https://www.ed.ac.uk/bayes/about-us/our-work/education/data-science-technology-and-innovation) at University of Edinburgh  
