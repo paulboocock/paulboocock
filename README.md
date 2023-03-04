@@ -1,16 +1,17 @@
 ## Hi there, I'm Paul 👋
 
-[![github-badge]][github-url] [![twitter-badge]][twitter-url] [![linkedin-badge]][linkedin-url] [![snowplow-discourse-badge]][snowplow-discourse-url] 
+[![github-badge]][github-url] [![twitter-badge]][twitter-url] [![linkedin-badge]][linkedin-url]  
 
-I'm Head of Engineering (Activation) at [Snowplow Analytics](https://github.com/snowplow/)
+I'm a Senior Data Engineering Manager at [Sony Interactive Entertainment](https://www.linkedin.com/company/sony-interactive-entertainment-llc/)
 
-💬 Ask me about Ethics of Data Collection, User Privacy, [Snowplow Trackers](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/), [Data Pipelines](https://docs.snowplow.io/docs/getting-started-on-snowplow-open-source/setup-snowplow-on-aws/) and [Data Models](https://docs.snowplow.io/docs/modeling-your-data/)  
+💬 Ask me about Ethics of Data Collection, User Privacy, Data Pipelines and Data Modeling  
 🌱 I’m currently studying [Data Science, Technology and Innovation MSc](https://www.ed.ac.uk/bayes/about-us/our-work/education/data-science-technology-and-innovation) at University of Edinburgh  
-📫 How to reach me: [Twitter](https://twitter.com/paul_boocock), [LinkedIn](https://www.linkedin.com/in/pboocock/) & [Snowplow Discourse](https://discourse.snowplow.io/u/paulboocock)
+📫 How to reach me: [Twitter](https://twitter.com/paul_boocock) & [LinkedIn](https://www.linkedin.com/in/pboocock/)
 
 ## 🧑‍🏫 Appearances
 
 ### 2022
+- [OSA Con 2022: Building Event Collection SDKs and Data Models](https://www.youtube.com/watch?v=ZnpbXWWlCNA)
 - [Scaling Data Management as Your Organisation’s Data Maturity Increases](https://panelist.com/event/cdo-uk-live-series-february-edition-2022/live)
 
 ### 2021
