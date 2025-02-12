@@ -5,7 +5,7 @@
 I'm a Senior Data Engineering Manager at [Sony Interactive Entertainment](https://www.linkedin.com/company/sony-interactive-entertainment-llc/)
 
 💬 Ask me about Ethics of Data Collection, User Privacy, Data Pipelines and Data Modeling  
-🌱 I’m currently studying [Data Science, Technology and Innovation MSc](https://www.ed.ac.uk/bayes/about-us/our-work/education/data-science-technology-and-innovation) at University of Edinburgh  
+🌱 I recently completed my [Data Science, Technology and Innovation MSc](https://www.ed.ac.uk/bayes/about-us/our-work/education/data-science-technology-and-innovation) at University of Edinburgh  
 📫 How to reach me: [Twitter](https://twitter.com/paul_boocock) & [LinkedIn](https://www.linkedin.com/in/pboocock/)
 
 ## 🧑‍🏫 Appearances
