@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paul Boocock</title>
+    <meta name="description"
+        content="Paul Boocock - Senior Data Engineering Manager at PlayStation Studios. Game & Publishing Analytics, Data Platforms, AI enablement, conversational analytics, privacy‑by‑design." />
+    <link rel="canonical" href="https://www.paulboocock.net/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Paul Boocock - Senior Data Engineering Manager, PlayStation Studios">
+    <meta property="og:description"
+        content="Senior Data Engineering Manager at PlayStation Studios. Game & Publishing Analytics, Data Platforms, AI enablement, conversational analytics, privacy-by-design.">
+    <meta property="og:url" content="https://www.paulboocock.net/">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/inter@5.0.19/index.min.css">
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Paul Boocock",
+  "jobTitle": "Senior Data Engineering Manager",
+  "worksFor": {"@type": "Organization", "name": "Sony Interactive Entertainment (PlayStation Studios)"},
+  "url": "https://www.paulboocock.net/",
+  "sameAs": [
+    "https://github.com/paulboocock",
+    "https://www.linkedin.com/in/pboocock/"
+  ],
+  "description": "Senior Data Engineering Manager focused on Game & Publishing Analytics, Data Platforms, AI enablement and privacy-by-design."
+}
+</script>
+    <style>
+        :root {
+            --fg: #0c1324;
+            --muted: #5c6880;
+            --link: #3a5bff;
+            --accent: #7b5dff;
+            --bg: #f6f8ff;
+            --chip: rgba(245, 248, 255, .8);
+            --panel: rgba(255, 255, 255, .85);
+            --timeline-offset: clamp(1.2rem, 4vw, 1.8rem);
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            color: var(--fg);
+            font: 16px/1.65 "Inter Variable", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+        }
+
+        body {
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        body::before,
+        body::after {
+            content: "";
+            position: fixed;
+            width: clamp(320px, 44vw, 520px);
+            height: clamp(320px, 44vw, 520px);
+            border-radius: 50%;
+            z-index: -2;
+            opacity: .65;
+            filter: blur(0);
+        }
+
+        body::before {
+            top: -180px;
+            right: -160px;
+            background: radial-gradient(circle at center, rgba(123, 93, 255, .45), transparent 68%);
+            animation: floaty 18s ease-in-out infinite;
+        }
+
+        body::after {
+            bottom: -220px;
+            left: -200px;
+            background: radial-gradient(circle at center, rgba(63, 141, 255, .35), transparent 72%);
+            animation: floaty 22s ease-in-out infinite reverse;
+        }
+
+        @keyframes floaty {
+            0% {
+                transform: translate3d(0, 0, 0) scale(1);
+            }
+
+            50% {
+                transform: translate3d(0, -18px, 0) scale(1.02);
+            }
+
+            100% {
+                transform: translate3d(0, 0, 0) scale(1);
+            }
+        }
+
+        .wrap {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 88px 22px 110px;
+        }
+
+        .panel {
+            position: relative;
+            background: var(--panel);
+            border-radius: 28px;
+            padding: clamp(40px, 6vw, 64px) clamp(24px, 5vw, 56px) clamp(52px, 8vw, 80px);
+            border: 1px solid rgba(255, 255, 255, .9);
+            box-shadow: 0 40px 90px -45px rgba(30, 38, 66, .55);
+            backdrop-filter: blur(18px);
+        }
+
+        h1 {
+            font-size: clamp(2.35rem, 4.8vw, 3.4rem);
+            margin: .3rem 0 1.25rem;
+            font-weight: 800;
+            letter-spacing: -.01em;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin: 1.2rem 0 1.2rem;
+            font-weight: 800;
+            letter-spacing: -.01em;
+        }
+
+        h3 {
+            font-size: 1.12rem;
+            margin: 0;
+            font-weight: 700;
+            color: var(--fg);
+        }
+
+        p {
+            margin: .5rem 0 1.05rem;
+        }
+
+        a {
+            color: var(--link);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color .2s ease, text-shadow .2s ease;
+        }
+
+        a:hover,
+        a:focus {
+            color: var(--accent);
+            text-shadow: 0 0 12px rgba(123, 93, 255, .35);
+        }
+
+        .badges {
+            display: flex;
+            gap: 12px;
+            margin: 1rem 0 1.8rem;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--chip);
+            border-radius: 999px;
+            padding: 7px 14px;
+            font-weight: 600;
+            text-decoration: none;
+            color: inherit;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, .6), 0 6px 18px -12px rgba(30, 65, 155, .75);
+            transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+        }
+
+        .badge svg {
+            opacity: .8;
+        }
+
+        .badge:hover,
+        .badge:focus-visible {
+            transform: translateY(-2px);
+            background: rgba(255, 255, 255, .92);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, .85), 0 16px 32px -18px rgba(58, 91, 255, .55);
+        }
+
+        .muted {
+            color: var(--muted);
+        }
+
+        ul {
+            padding-left: 1.1rem;
+            margin: .35rem 0 1.2rem;
+        }
+
+        li {
+            margin: .45rem 0;
+        }
+
+        .lead {
+            font-size: 1.08rem;
+            max-width: 56ch;
+        }
+
+        .meta {
+            margin-top: 1.6rem;
+            border-top: 1px solid rgba(120, 128, 150, .18);
+            padding-top: 1.2rem;
+            color: var(--muted);
+            font-size: .94rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .sr-only {
+            position: absolute !important;
+            height: 1px;
+            width: 1px;
+            overflow: hidden;
+            clip: rect(1px, 1px, 1px, 1px);
+            white-space: nowrap;
+        }
+
+        .eyebrow {
+            text-transform: uppercase;
+            letter-spacing: .25em;
+            font-size: .8rem;
+            font-weight: 700;
+            color: var(--muted);
+            margin: 0 0 .6rem;
+        }
+
+        .headline-accent {
+            display: inline-block;
+            background: linear-gradient(120deg, var(--link), var(--accent));
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .timeline {
+            position: relative;
+            margin-top: 1rem;
+        }
+
+        .timeline::before {
+            content: "";
+            position: absolute;
+            top: 2.8rem;
+            bottom: 0;
+            left: calc(var(--timeline-offset) - 1px);
+            width: 2px;
+            background: linear-gradient(to bottom, rgba(58, 91, 255, .25), rgba(123, 93, 255, .1) 60%, transparent);
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: calc(var(--timeline-offset) + .8rem);
+            margin-bottom: 1.8rem;
+        }
+
+        .timeline-item:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            top: 0.9rem;
+            left: calc(var(--timeline-offset) - 8px);
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: var(--link);
+            box-shadow: 0 0 0 8px rgba(58, 91, 255, .12);
+            transform: translateY(-50%);
+        }
+
+        .timeline-item header {
+            display: flex;
+            align-items: baseline;
+            gap: .75rem;
+            margin-bottom: .4rem;
+        }
+
+        .timeline-item header h3 {
+            color: var(--muted);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .08em;
+            margin-left: 8px;
+        }
+
+        .timeline-item ul {
+            margin-left: 0;
+        }
+
+        @media (max-width: 640px) {
+            .wrap {
+                padding: 58px 18px 82px;
+            }
+
+            .panel {
+                padding: 36px 20px 52px;
+                border-radius: 22px;
+            }
+
+            .timeline::before {
+                left: calc(var(--timeline-offset) - 2px);
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: .01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: .01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="wrap panel">
+        <p class="eyebrow">Data &amp; Analytics Leadership</p>
+        <h1>Hi there, I’m <span class="headline-accent">Paul</span> 👋</h1>
+
+        <!-- Social / contact badges -->
+        <div class="badges">
+            <a class="badge" href="https://github.com/paulboocock" rel="me" aria-label="GitHub">
+                <!-- simple GH mark -->
+                <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                    <path fill="currentColor"
+                        d="M8 .2A7.8 7.8 0 0 0 .2 8c0 3.4 2.2 6.2 5.2 7.2.4.1.5-.2.5-.4v-1.6c-2.1.5-2.6-1-2.6-1-.4-.9-1-1.1-1-1.1-.8-.6.1-.6.1-.6.9.1 1.4 1 1.4 1 .8 1.4 2.2 1 2.8.7.1-.6.3-1 .6-1.3-1.7-.2-3.5-.8-3.5-3.8 0-.8.3-1.5.7-2-.1-.2-.3-1 .1-2 0 0 .6-.2 2 .7.6-.2 1.2-.2 1.8-.2s1.2 0 1.8.2c1.4-.9 2-.7 2-.7.4 1 .2 1.8.1 2 .5.5.7 1.2.7 2 0 2.9-1.8 3.5-3.5 3.8.3.2.6.8.6 1.6V15c0 .2.1.5.5.4A7.8 7.8 0 0 0 15.8 8 7.8 7.8 0 0 0 8 .2Z" />
+                </svg>
+                GitHub
+            </a>
+            <a class="badge" href="https://www.linkedin.com/in/pboocock/" rel="me" aria-label="LinkedIn">
+                <!-- LI mark -->
+                <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="currentColor"
+                        d="M4.98 3.5a2.5 2.5 0 1 1 0 4.999 2.5 2.5 0 0 1 0-5ZM3.5 9h3v12h-3zM10 9h2.9v1.6h.1c.4-.8 1.5-1.6 3-1.6 3.2 0 3.8 2.1 3.8 4.8V21h-3v-5.4c0-1.3 0-3-1.8-3s-2 1.4-2 2.9V21h-3z" />
+                </svg>
+                LinkedIn
+            </a>
+        </div>
+
+        <p>I’m a <strong>Senior Data Engineering Manager</strong> at <a
+                href="https://www.linkedin.com/company/sony-interactive-entertainment-llc/">Sony Interactive
+                Entertainment (PlayStation Studios)</a>. <span class="muted">Feb 2023 – Present</span>.</p>
+
+        <!-- “Ask me about” -->
+        <p>💬 <strong>Ask me about</strong>: Game &amp; Publishing Analytics; Data Platforms; AI enablement &amp;
+            conversational analytics; privacy‑by‑design; pragmatic engineering leadership.</p>
+
+        <!-- MSc -->
+        <p>🎓 Postgraduate <a href="/assets/dsti_booklet.pdf">Data Science, Technology &amp; Innovation MSc</a> completed 2024 at University of Edinburgh -
+            Distinction.</p>
+
+        <!-- contact - LinkedIn only -->
+        <p>📫 <strong>How to reach me</strong>: <a href="https://www.linkedin.com/in/pboocock/">LinkedIn</a></p>
+
+        <section class="timeline" aria-label="Conference appearances and talks">
+            <h2>Appearances</h2>
+
+            <!-- years reflecting focus on PlayStation role -->
+            <article class="timeline-item">
+                <span class="timeline-dot" aria-hidden="true"></span>
+                <header>
+                    <h3>2023 – <span id="current-year">2025</span></h3>
+                </header>
+                <ul>
+                    <li class="muted">No public speaking - joined Sony Interactive Entertainment in Feb 2023 and focused on internal delivery at
+                        PlayStation Studios.</li>
+                </ul>
+            </article>
+
+            <!-- Historic talks -->
+            <article class="timeline-item">
+                <span class="timeline-dot" aria-hidden="true"></span>
+                <header>
+                    <h3>2022</h3>
+                </header>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=ZnpbXWWlCNA">OSA Con - Building Event Collection
+                            SDKs and Data Models</a></li>
+                    <li><a
+                            href="https://www.linkedin.com/posts/cdm-media_cdouksummit-cdosummit2022-cdo-activity-6983768915457798145-1Eza">CDO Summit - Scaling
+                            Data Management as Your Organisation’s Data Maturity Increases</a></li>
+                </ul>
+            </article>
+
+            <article class="timeline-item">
+                <span class="timeline-dot" aria-hidden="true"></span>
+                <header>
+                    <h3>2021</h3>
+                </header>
+                <ul>
+                    <li><a href="https://www.teamsimmer.com/2021/07/27/online-analytics-with-paul-boocock/">Technical
+                            Marketing Handbook #3: Online Analytics with Paul Boocock</a></li>
+                    <li>The future of web analytics: A fireside chat with Simo Ahava</li>
+                    <li><a href="https://www.youtube.com/watch?v=H6Q-dtQ7xdM">dbt Coalesce - Modelling event data
+                            at scale</a></li>
+                </ul>
+            </article>
+
+            <article class="timeline-item">
+                <span class="timeline-dot" aria-hidden="true"></span>
+                <header>
+                    <h3>2020</h3>
+                </header>
+                <ul>
+                    <li>The debate on explicit vs implicit tracking - Heap &amp; Snowplow</li>
+                    <li>The art and science of designing your tracking</li>
+                </ul>
+            </article>
+
+            <article class="timeline-item">
+                <span class="timeline-dot" aria-hidden="true"></span>
+                <header>
+                    <h3>2019</h3>
+                </header>
+                <ul>
+                    <li>NOR(DEV):CON - Working remote vs working colocated</li>
+                </ul>
+            </article>
+
+            <article class="timeline-item">
+                <span class="timeline-dot" aria-hidden="true"></span>
+                <header>
+                    <h3>2017</h3>
+                </header>
+                <ul>
+                    <li><a href="https://www.infoq.com/news/2017/10/toyota-way-codeweavers/">Agile Cambridge - The
+                            Toyota Way at Codeweavers</a></li>
+                    <li><a href="https://www.slideshare.net/slideshow/one-trunk-one-pipeline-one-truth/75980193">Agile
+                            Manchester - One trunk, one pipeline, one truth</a></li>
+                </ul>
+            </article>
+
+            <article class="timeline-item">
+                <span class="timeline-dot" aria-hidden="true"></span>
+                <header>
+                    <h3>2016</h3>
+                </header>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=pplV2jBKfPU">Agile on the Beach 2016 - Continuously
+                            delivering software to big brands</a></li>
+                </ul>
+            </article>
+        </section>
+
+        <footer class="meta">
+            <span>Based in the UK 🇬🇧</span>
+        </footer>
+    </main>
+    <script>
+        const currentYearEl = document.getElementById("current-year");
+        if (currentYearEl) {
+            currentYearEl.textContent = new Date().getFullYear();
+        }
+    </script>
+</body>
+
+</html>
